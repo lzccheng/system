@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>银河大酒店财务系统</title>
+<meta name="keywords"  content="设置关键词..." />
+<meta name="description" content="设置描述..." />
+<meta name="author" content="DeathGhost" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="javascript/jquery.js"></script>
+<script src="javascript/plug-ins/customScrollbar.min.js"></script>
+<script src="javascript/plug-ins/echarts.min.js"></script>
+<script src="javascript/plug-ins/layerUi/layer.js"></script>
+<script src="editor/ueditor.config.js"></script>
+<script src="editor/ueditor.all.js"></script>
+<script src="javascript/plug-ins/pagination.js"></script>
+<script src="javascript/public.js"></script>
+<style>
+
+ .dataTime{
+ 	margin: 10px 20px;
+ 	float: right;
+ }
+ .dataTime span{
+ 	display: inline-block;
+ 	padding: 3px 5px;
+ 	border: #aaa solid 1px;
+ 	border-radius: 5px;
+ }
+ .title{
+ 	padding: 0 5%;
+ }
+ .title .p1{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding-top: 70px;
+ }
+ .ye{
+ 	padding: 20px 35px;
+
+ }
+ 
+</style>
+</head>
+<body>
+<div class="main-wrap">
+	<div class="side-nav">
+		<div class="side-logo">
+			<div class="logo">
+				<span class="logo-ico">
+					<i class="i-l-1"></i>
+					<i class="i-l-2"></i>
+					<i class="i-l-3"></i>
+				</span>
+				<strong>银河大酒店财务系统</strong>
+			</div>
+		</div>
+		
+		<nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
+			<h2>
+				<a href="index.html" class="InitialPage"><i class="icon-dashboard"></i>订房记录</a>
+			</h2>
+			<ul>
+				<li>
+					<dl>
+						<dt>
+							<i class="icon-columns"></i>财务<i class="icon-angle-right"></i>
+						</dt>
+						<dd>
+							<a href="cash.html">提现</a>
+						</dd>
+						<!-- <dd>
+							<a href="flow-layout.html">瀑布流布局</a>
+						</dd> -->
+					</dl>
+				</li>
+				<!-- <li>
+					<dl>
+						<dt>
+							<i class="icon-inbox"></i>更多<i class="icon-angle-right"></i>
+						</dt>
+						<dd>
+							<a href="button.html">基础按钮</a>
+						</dd>
+					</dl>
+				</li> -->
+				
+			
+				
+				
+			</ul>
+		</nav>
+		
+	</div>
+	<div class="content-wrap">
+		<header class="top-hd">
+			<div class="hd-lt">
+				<a class="icon-reorder"></a>
+			</div>
+			<div class="hd-rt">
+				<ul>
+					<li>
+						<a><i class="icon-user"></i>管理员:<em>DeathGhost</em></a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="main-cont content mCustomScrollbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="table-responsive">
+							  <table class="table">
+							  		<tr>
+										<th>
+											提现记录
+										</th>
+										<th></th>
+							  		</tr>
+							  		<tr>
+										<td>2018-04-30</td>
+										<td>￥9999</td>
+							  		</tr>
+							  </table>
+						</div>
+					</div>
+					
+					 <div class="col-md-4">
+				  		<div class="ye">
+							<p style="text-align: right;font-weight: 600;font-size: 18px;padding-right: 15px">余额</p>
+							<p style="text-align: right;font-weight: 600;font-size: 18px;padding-right: 25px">￥110999</p>
+				  		</div>
+						<a href="card.html" class="btn btn-success btn-block">
+							提现
+						</a>
+				  	</div>
+				</div>
+				
+			</div>
+			<!--开始::结束-->
+
+		</main>
+		
+	</div>
+</div>
+</body>
+</html>
